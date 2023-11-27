@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Lib Form</title>
+</head>
+<body>
+  <h1>MAD LIB</h1>
+  <form id="madLibForm" action="/" method="post">
+    <label for="noun">Noun:</label>
+    <input type="text" id="noun" name="noun" required><br>
+
+    <label for="adjective">Adjective:</label>
+    <input type="text" id="adjective" name="adjective" required><br>
+
+    <label for="verb">Verb:</label>
+    <input type="text" id="verb" name="verb" required><br>
+
+    <label for="adverb">Adverb:</label>
+    <input type="text" id="adverb" name="adverb" required><br>
+
+    <label for="pluralNoun">Plural Noun:</label>
+    <input type="text" id="pluralNoun" name="pluralNoun" required><br>
+
+    <input type="submit" value="Generate Mad Lib">
+  </form>
+  <div id="madLibResult"></div>
+  <script src="/script.js"></script>
+</body>
+</html>
